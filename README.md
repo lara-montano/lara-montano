@@ -2,7 +2,7 @@
 
 **Assistant Professor & Researcher** · [Universidad Autónoma de Querétaro](https://www.uaq.mx) · Facultad de Ingeniería
 
-Chemical engineer with a Ph.D. in Chemical Sciences and 8+ years of experience in process optimization, simulation, and techno-economic analysis. Member of the **Sistema Nacional de Investigadores** (SNI — Candidate Level, SECIHTI). Author of 10 indexed journal articles, 7 book chapters (Springer, Elsevier, CYTED, De Gruyter), and 20+ conference papers.
+Chemical engineer with a Ph.D. in Chemical Sciences and 8+ years of experience in process optimization, simulation, and techno-economic analysis. Member of the **Sistema Nacional de Investigadores** (SNI — Candidate Level, SECIHTI). Author of 11 indexed journal articles, 7 book chapters (Springer, Elsevier, CYTED, De Gruyter), and 20+ conference papers.
 
 ---
 
