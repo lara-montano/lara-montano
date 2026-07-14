@@ -1,0 +1,16 @@
+# Auxiliares de LaTeX
+*.aux
+*.log
+*.nav
+*.snm
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Carpeta de trabajo temporal
+/out/
+
+# PDF de trabajo en la raíz (los finales van a export/)
+/*.pdf
