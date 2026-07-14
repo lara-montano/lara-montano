@@ -191,4 +191,35 @@
 \end{tikzpicture}
 \end{frame}}
 
+% ---- Lámina de CIERRE de crecimiento / SÍGUENOS -------------------
+% Optimizada para convertir a nuevos seguidores.
+% \rdcfollow{núm}{TITULAR}{motivo para seguir}{gancho de etiquetar}
+\newcommand{\rdcfollow}[4]{%
+\begin{frame}[plain]
+\begin{tikzpicture}[remember picture,overlay]
+  \rdc@bg
+  \rdc@chrome{#1}
+  % logo (anclado desde arriba para posición predecible)
+  \node[circle,fill=rdccyan,minimum size=1.5cm,inner sep=0pt,text=rdcbg,
+        font=\fontsize{30}{30}\selectfont] (logo)
+    at ([shift={(0,-2.9)}]current page.north) {\faCompass};
+  % propuesta de valor
+  \node[below=0.28cm of logo,text=rdcmuted,font=\wsemibold\fontsize{10.5}{10.5}\selectfont]
+    (vp) {CIENCIA CON SENTIDO CRÍTICO};
+  % titular
+  \node[below=0.42cm of vp,text width=9.2cm,align=center,text=rdcink,
+        font=\wblack\fontsize{25}{29}\selectfont] (head) {\rdc@nohyphen #2};
+  % motivo
+  \node[below=0.3cm of head,text width=8.6cm,align=center,text=rdcbody,
+        font=\wregular\fontsize{13}{18}\selectfont] (reason) {\rdc@nohyphen #3};
+  % botón/píldora de seguir
+  \node[below=0.55cm of reason,inner xsep=18pt,inner ysep=10pt,rounded corners=16pt,
+        fill=rdccyan,text=rdcbg,font=\wblack\fontsize{15}{15}\selectfont] (pill)
+    {\faUserPlus\ \ Sigue \rdchandle};
+  % gancho de etiquetar
+  \node[below=0.5cm of pill,text width=8.6cm,align=center,text=rdcmuted,
+        font=\wregular\fontsize{11}{15}\selectfont] {\rdc@nohyphen #4};
+\end{tikzpicture}
+\end{frame}}
+
 \endinput

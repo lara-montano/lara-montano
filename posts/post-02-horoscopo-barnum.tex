@@ -1,0 +1,84 @@
+%% =====================================================================
+%%  RUTA DE CIENCIA  —  Post #02
+%%  Pilar: DETECTOR DE MENTIRAS  (enfocado en CRECIMIENTO / seguidores)
+%%  Tema:  "Tu horóscopo SIEMPRE le atina" — efecto Barnum / Forer
+%%
+%%  Estrategia de crecimiento:
+%%   - Hook con demostración interactiva (alta compartibilidad).
+%%   - Momento "mind-blown" dentro del propio carrusel.
+%%   - Lámina final de SÍGUENOS + gancho de etiquetar (alcance).
+%%
+%%  Compilar:  ./build.sh post-02-horoscopo-barnum
+%% =====================================================================
+\documentclass[10pt]{beamer}
+\usepackage{ruta-de-ciencia}
+
+% ---- Metadatos de este post ----------------------------------------
+\renewcommand{\rdchandle}{@rutadeciencia}
+\renewcommand{\rdccategory}{DETECTOR DE MENTIRAS}
+\renewcommand{\rdctotalslides}{9}
+
+\begin{document}
+
+% --- 1 · PORTADA (hook) --------------------------------------------
+\rdccover{MITO}
+  {Tu horóscopo\\ SIEMPRE\\ ``le atina''}
+  {Y no es magia: es un truco psicológico con nombre.
+   Te lo demuestro en 10 segundos.}
+
+% --- 2 · LA PRUEBA --------------------------------------------------
+\rdccontent{2}{\faComments}{HAGAMOS UNA PRUEBA}
+  {Lee esto con calma}
+  {Voy a describir tu personalidad sin saber tu signo. En la siguiente
+   lámina, cuenta cuántas frases sientes que hablan de ti.}
+
+% --- 3 · LA "LECTURA" (texto Barnum) -------------------------------
+\rdccontent{3}{\faQuoteLeft}{TU LECTURA DE HOY}
+  {Esto eres tú:}
+  {``Necesitas caer bien, pero eres tu crítico más duro. Tienes un
+   potencial que aún no explotas. A veces dudas de tus decisiones y
+   valoras tu independencia por encima de las reglas.'' \\[4pt]
+   \textcolor{rdcamber}{¿Cuántas te describieron?}}
+
+% --- 4 · EL TRUCO ---------------------------------------------------
+\rdccontent{4}{\faMagic}{EL TRUCO}
+  {Le atina a todos}
+  {Esas frases le quedan a casi cualquier persona. Se llama efecto
+   Forer (o Barnum): descripciones tan generales que sientes que hablan
+   solo de ti.}
+
+% --- 5 · POR QUÉ CAEMOS ---------------------------------------------
+\rdccontent{5}{\faBrain}{POR QUÉ CAES}
+  {Tu cerebro rellena}
+  {Recuerdas los aciertos y olvidas los fallos (sesgo de confirmación).
+   Y como quieres que sea verdad, tu mente completa los huecos por ti.}
+
+% --- 6 · LA PRUEBA CIENTÍFICA ---------------------------------------
+\rdccontent{6}{\faFlask}{¿Y SI FUERA REAL?}
+  {Lo pusieron a prueba}
+  {En un estudio doble ciego publicado en \emph{Nature} (Carlson, 1985),
+   astrólogos no lograron emparejar cartas astrales con perfiles de
+   personalidad mejor que el puro azar.}
+
+% --- 7 · SIN DRAMA --------------------------------------------------
+\rdccontent{7}{\faHeart}{SIN DRAMA}
+  {Disfrútalo, pero...}
+  {No hay nada malo en leer tu horóscopo por diversión. El problema es
+   tomar decisiones reales --de salud, dinero o amor-- basándote en los
+   astros.}
+
+% --- 8 · VEREDICTO --------------------------------------------------
+\rdcclosing{8}
+  {El horóscopo no te conoce. Tú te conoces (y rellenas los huecos).}
+  {La próxima vez que ``le atine'', recuerda: está diseñado para
+   atinarle a todo el mundo.}
+  {Forer, B.R. (1949); Carlson, S. (1985), \emph{Nature} 318, 419--425.}
+
+% --- 9 · SÍGUENOS (crecimiento) ------------------------------------
+\rdcfollow{9}
+  {¿Te voló la cabeza?}
+  {Cada semana desarmo un mito con evidencia. Sígueme y no te comas
+   otro cuento.}
+  {Y etiqueta a quien SIEMPRE saca su carta astral.}
+
+\end{document}
