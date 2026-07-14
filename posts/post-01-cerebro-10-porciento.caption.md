@@ -6,18 +6,18 @@
 
 ## Texto para pegar (copia desde aquí 👇)
 
-No, no usas ``solo el 10%'' de tu cerebro. Y la neurociencia lo tiene clarísimo. 🧠
+No, no usas "solo el 10%" de tu cerebro. Y la neurociencia lo tiene clarísimo. 🧠
 
-Es uno de los mitos más repetidos: lo dan por hecho películas como Lucy, gurús del ``potencial oculto'' y mil posts motivacionales. Suena inspirador… pero es falso.
+Es uno de los mitos más repetidos: lo dan por hecho películas como Lucy, gurús del "potencial oculto" y mil posts motivacionales. Suena inspirador… pero es falso.
 
 ¿La evidencia?
 🔬 La neuroimagen (fMRI, PET) muestra actividad en prácticamente todo el cerebro a lo largo del día.
 ⚡ El cerebro es el 2% de tu peso pero gasta ~20% de tu energía: mantener un 90% inútil sería un lujo biológicamente imposible.
-🧩 Una lesión en casi cualquier zona tiene consecuencias. No hay partes ``de sobra''.
+🧩 Una lesión en casi cualquier zona tiene consecuencias. No hay partes "de sobra".
 
 La verdad: usas el 100% de tu cerebro… solo que no todo a la vez. Distintas tareas activan distintas regiones. Es eficiente, no perezoso.
 
-Así que la próxima vez que te prometan ``desbloquear el 90% restante'', ya sabes qué pedir: la fuente. 🧭
+Así que la próxima vez que te prometan "desbloquear el 90% restante", ya sabes qué pedir: la fuente. 🧭
 
 📚 Fuentes: Beyerstein, B.L. (1999), Mind Myths; Society for Neuroscience; revisiones de neuroimagen fMRI/PET.
 
@@ -31,14 +31,12 @@ Así que la próxima vez que te prometan ``desbloquear el 90% restante'', ya sab
 ---
 
 ## Primer comentario (fijar, opcional)
-> Dato extra: el mito se popularizó en parte por citas mal atribuidas a Einstein
-> y por un prólogo de Dale Carnegie en los años 30. Ninguna tenía respaldo
-> científico. Repetir algo mil veces no lo vuelve verdad. 🧭
 
-## Texto alternativo (accesibilidad — pégalo en Configuración avanzada › Texto alt.)
-> Carrusel sobre fondo azul oscuro con el título ``Solo usas el 10% de tu
-> cerebro'' marcado como MITO, seguido de la evidencia científica que lo
-> desmiente y el veredicto: usas el 100% de tu cerebro.
+Dato curioso: el mito se popularizó en parte por citas mal atribuidas a Einstein y por un prólogo de Dale Carnegie en los años 30. Ninguna tenía respaldo científico. Repetir algo mil veces no lo vuelve verdad. 🧭
+
+## Texto alternativo (accesibilidad — Configuración avanzada › Texto alt.)
+
+Carrusel sobre fondo azul oscuro: el título "Solo usas el 10% de tu cerebro" marcado como MITO, seguido de la evidencia científica que lo desmiente y el veredicto: usas el 100% de tu cerebro.
 
 ## Notas de publicación
 - Cambia `@rutadeciencia` por tu handle real en el `.tex` si es distinto.
