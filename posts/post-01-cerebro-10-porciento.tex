@@ -1,0 +1,75 @@
+%% =====================================================================
+%%  RUTA DE CIENCIA  —  Post #01
+%%  Pilar: MITO vs. EVIDENCIA  (Lunes, Semana 1)
+%%  Tema:  "Solo usas el 10% de tu cerebro"
+%%
+%%  Compilar:  pdflatex post-01-cerebro-10-porciento.tex
+%%  Exportar:  pdftoppm -scale-to-x 1080 -png post-01-cerebro-10-porciento.pdf out/post01
+%% =====================================================================
+\documentclass[10pt]{beamer}
+\usepackage{ruta-de-ciencia}
+
+% ---- Metadatos de este post ----------------------------------------
+\renewcommand{\rdchandle}{@rutadeciencia}
+\renewcommand{\rdccategory}{MITO vs.\ EVIDENCIA}
+\renewcommand{\rdctotalslides}{8}
+
+\begin{document}
+
+% --- 1 · PORTADA ----------------------------------------------------
+\rdccover{MITO}
+  {``Solo usas el\\ 10\% de tu\\ cerebro''}
+  {Lo repiten las películas, los gurús del ``potencial oculto'' y ese
+   post motivacional. La neurociencia dice otra cosa.}
+
+% --- 2 · EL MITO ----------------------------------------------------
+\rdccontent{2}{\faFilm}{EL MITO}
+  {Lo has oído mil veces}
+  {Películas como \emph{Lucy} o \emph{Sin límites} lo dan por hecho.
+   Coaches lo usan para venderte que ``desbloquees'' tu potencial.
+   Suena inspirador\dots\ y es falso.}
+
+% --- 3 · LA PREGUNTA ------------------------------------------------
+\rdccontent{3}{\faQuestion}{LA PREGUNTA INCÓMODA}
+  {¿De dónde salió ese 10\%?}
+  {De ningún estudio. Nadie midió jamás un cerebro ``90\% apagado''.
+   Es una cifra que se repite sola, sin fuente que la sostenga.
+   Primera señal de alarma.}
+
+% --- 4 · EVIDENCIA 1 ------------------------------------------------
+\rdccontent{4}{\faBrain}{LA EVIDENCIA · 1}
+  {Te vemos el cerebro entero}
+  {Las técnicas de neuroimagen (fMRI, PET) muestran actividad en
+   prácticamente todo el cerebro a lo largo del día. No existe un 90\%
+   en silencio esperando a ser ``activado''.}
+
+% --- 5 · EVIDENCIA 2 ------------------------------------------------
+\rdccontent{5}{\faBolt}{LA EVIDENCIA · 2}
+  {La evolución no derrocha}
+  {El cerebro es el 2\% de tu peso pero gasta \mbox{$\sim$20\%} de tu
+   energía. Mantener un 90\% inútil sería un lujo imposible. Y una lesión
+   en casi cualquier zona tiene consecuencias: no hay partes ``de sobra''.}
+
+% --- 6 · EL ORIGEN --------------------------------------------------
+\rdccontent{6}{\faHistory}{EL ORIGEN DEL MITO}
+  {¿Y por qué lo creemos?}
+  {Nació de malentendidos: una frase de William James sobre nuestro
+   ``potencial'', lecturas erróneas sobre las células gliales y la
+   autoayuda del siglo XX. Se volvió leyenda por lo bonito que suena.}
+
+% --- 7 · LO QUE SÍ ES CIERTO ---------------------------------------
+\rdccontent{7}{\faLightbulb}{ENTONCES\dots}
+  {Usas el 100\%}
+  {Solo que no todo a la vez. Igual que no tensas todos los músculos
+   al mismo tiempo, tu cerebro activa distintas regiones según la tarea.
+   Es eficiente, no perezoso.}
+
+% --- 8 · CIERRE / VEREDICTO ----------------------------------------
+\rdcclosing{8}
+  {Usas todo tu cerebro. El ``10\%'' es puro mito.}
+  {La próxima vez que te prometan ``desbloquear el 90\% restante'',
+   ya sabes qué responder: pídeles la fuente.}
+  {Beyerstein (1999), \emph{Mind Myths}\,; Society for Neuroscience\,;
+   revisiones de neuroimagen fMRI/PET.}
+
+\end{document}
